@@ -41,7 +41,7 @@ spl-token-metadata-interface = "^0.6"
 spl-associated-token-account = { version = "^6", features = [ "no-entrypoint" ] } 
 steel = { features = ["spl"], version = "4.0.4" }
 thiserror = "1.0.57"
-tokio = { version = "1.37.0", features = ["full"] }
+tokio = { version = "1.52.3", features = ["full"] }
 
 [profile.release]
 overflow-checks = true
